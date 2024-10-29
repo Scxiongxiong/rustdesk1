@@ -210,3 +210,8 @@ rpath = true
 [profile.dev]
 split-debuginfo = '...'  # Platform-specific.
 #strip = "debuginfo" 
+
+[cfg(not(feature = "server-control"))]
+fn enable_server_control() {
+    // 不启用服务端控制的代码
+}
