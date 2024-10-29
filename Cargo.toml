@@ -213,6 +213,4 @@ split-debuginfo = '...'  # Platform-specific.
 
 
 [cfg(not(feature = "server-control"))]
-fn enable_server_control() {
-    // 不启用服务端控制的代码
-}
+
