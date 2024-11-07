@@ -211,6 +211,3 @@ rpath = true
 split-debuginfo = '...'  # Platform-specific.
 #strip = "debuginfo" 
 
-
-[cfg(not(feature = "server-control"))]
-
